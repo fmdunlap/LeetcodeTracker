@@ -210,6 +210,7 @@ class mainWindow:
             self.changeAssignmentButton.configure(state=tk.NORMAL)
             self.finishedButton.configure(state=tk.DISABLED)
         
+    
 
     def startPressed(self, event):
         if self.stopped:
@@ -238,10 +239,17 @@ def setupWindow(main):
 root = tk.Tk()
 parseSaveFile()
 setupWindow(root)
-mainWindow(root)
+mw = mainWindow(root)
 
 #Deal with close event
 def on_closing():
+    quit = True
+    if(not mw.stopped):
+        if tk.messagebox.askyesno("Stop?", "Are you sure you want to stop? If you do you will not be able to save this challenge."):
+            quit = True
+            mw.stop(ask=False)
+        else:
+            quit = False
     LeetcodeAPI.writeReadme(jsonData)
     root.destroy()
 
