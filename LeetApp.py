@@ -1,11 +1,15 @@
-import tkinter as tk
 import os
 import random
 import json
 import pprint
 import time
 import datetime
-from tkinter import messagebox
+try:
+    import tkinter as tk
+    from tkinter import messagebox
+except ImportError:
+    import Tkinter as tk
+    from Tkinter import messagebox
 import pathlib
 
 WIN_TITLE = "LeetApp"
@@ -197,8 +201,13 @@ class mainWindow:
         self.finishedButton.configure(state=tk.NORMAL)
         self.update_clock()
 
-    def stop(self):
-        if tk.messagebox.askyesno("Stop?", "Are you sure you want to stop? If you do you will not be able to save this challenge."):
+    def stop(self, ask=True):
+        doStop = True
+        if ask:
+            if not tk.messagebox.askyesno("Stop?", "Are you sure you want to stop? If you do you will not be able to save this challenge."):
+                doStop = False
+
+        if doStop:
             self.stopped = True
             self.startButton.configure(state=tk.NORMAL, bg="green")
             self.startStopText.set("Start")
@@ -217,11 +226,11 @@ class mainWindow:
         global jsonData
 
         if not self.stopped:
-            jsonData["completed"][self.numberToDoVariable.get()] = (self.languageToUse.get(), self.elapsed)
+            jsonData["completed"][self.numberToDoVariable.get()] = (self.languageToUse.get(), self.elapsed, self.startTime)
             with open(SAVE_FILE_NAME, 'w') as saves:
                 json.dump(jsonData, saves)
                 saves.close()
-            self.stop()
+            self.stop(ask=False)
 
 
 def setupWindow(main):
