@@ -1,4 +1,8 @@
+import time
 import datetime
+
+#convenience!
+currentTime = lambda: int(round(time.time() * 1000))
 
 def getStopwatchString(millis):
     mils = millis % 1000

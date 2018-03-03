@@ -29,6 +29,7 @@ class problem:
     def __init__(self, problem_info):
         self.frontend_id = problem_info['stat']['frontend_question_id']
         self.id = problem_info['stat']['question_id']
+        self.slug = problem_info['stat']['question__title_slug']
         self.name = problem_info['stat']['question__title']
         self.difficulty = problem_info['difficulty']['level']
         self.free = not problem_info['paid_only']
@@ -52,6 +53,8 @@ def getMDLine(app_json, p):
         
     return line
 
+def getProblemURL(p):
+    return "https://leetcode.com/problems/" + p.slug
 
 def writeReadme(app_json):
     with open("README.md", "w") as f:
@@ -60,6 +63,9 @@ def writeReadme(app_json):
             f.write(getMDLine(app_json, problem))
 
         f.close()
+
+def debugPrintLeetAPIJSON():
+    pp.pprint(problem_json)
 
 #Initialization code
 problems = {}
