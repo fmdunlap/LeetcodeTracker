@@ -26,5 +26,5 @@ root = tk.Tk()
 setupWindow(root)
 mw = MainWindow.mainWindow(root, tk, LeetData.jsonData)
 
-root.protocol("WM_DELETE_WINDOW", MainWindow.mainWindow.on_closing)
+root.protocol("WM_DELETE_WINDOW", lambda: MainWindow.on_closing(mw))
 root.mainloop()

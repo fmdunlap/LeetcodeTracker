@@ -1223,9 +1223,9 @@ Problem 202: Happy Number   ![#07c117](https://placehold.it/15/07c117/000000?tex
 
 Problem 203: Remove Linked List Elements   ![#07c117](https://placehold.it/15/07c117/000000?text=+)
 ------
-* **Status:** INCOMPLETE
-* **Time Taken:** N/A 
-* **Completed On:** N/A
+* **Status:** COMPLETE!
+* **Time Taken:** 0:15:36.409
+* **Completed On:** 2018-03-03
 
 Problem 204: Count Primes   ![#07c117](https://placehold.it/15/07c117/000000?text=+)
 ------
