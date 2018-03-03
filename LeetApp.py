@@ -215,7 +215,6 @@ class mainWindow:
     def startPressed(self, event):
         if self.stopped:
             self.start()
-            makeDir(self.numberToDoVariable.get())
         else:
             self.stop()
 
@@ -223,6 +222,7 @@ class mainWindow:
         global jsonData
 
         if not self.stopped:
+            makeDir(self.numberToDoVariable.get())
             jsonData["completed"][self.prob.id] = {'frontend_id':self.prob.frontend_id, 'language_used':self.languageToUse.get(), 'elapsed':self.elapsed, 'start':self.startTime}
             with open(SAVE_FILE_NAME, 'w') as saves:
                 json.dump(jsonData, saves)
