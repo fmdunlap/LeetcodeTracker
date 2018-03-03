@@ -4,6 +4,10 @@ import json
 import pprint
 import time
 import datetime
+import LeetcodeAPI
+import milsUtils
+
+
 try:
     import tkinter as tk
     from tkinter import messagebox
@@ -15,13 +19,9 @@ import pathlib
 WIN_TITLE = "LeetApp"
 WIN_WIDTH = 500
 WIN_HEIGHT = 400
-
-NUM_ALG_CHALLENGES = 791
-
+NUM_ALG_CHALLENGES = len(LeetcodeAPI.problems)
 APP_NAME = "LeetCode Tracker"
-
 SAVE_FILE_NAME = "leetconfig.json"
-
 LANGUAGES = ["Java", "Python", "C++", "C"]
 
 #convenience!
@@ -47,28 +47,19 @@ def parseSaveFile():
 
     with open(SAVE_FILE_NAME, 'r') as saves:
         jsonData = json.load(saves)
-        pprint.pprint(jsonData)
         saves.close()
 
 def makeDir(challengeNumber):
     pathlib.Path(os.path.join(os.getcwd(), str(challengeNumber))).mkdir(parents=True, exist_ok=True)
 
-def getNextAssignment():
+def getNextProblem():
     global jsonData
 
-    nextChallenge = random.randrange(1, jsonData['numAlgorithms'])
-    while(nextChallenge in jsonData["completed"].keys()):
-        nextChallenge = random.randrange(1, NUM_ALG_CHALLENGES)
+    nextChallenge = random.choice(list(LeetcodeAPI.problems.values()))
+    while(nextChallenge.id in jsonData["completed"].keys() or not nextChallenge.free):
+        nextChallenge = random.choice(list(LeetcodeAPI.problems.values()))
 
     return nextChallenge
-
-def getStopwatchString(millis):
-    mils = millis % 1000
-    secs = (millis / 1000) % 60
-    mins = ((millis / 1000) / 60) % 60
-    hours = ((millis / 1000) / 60) / 60
-
-    return "%i:%02i:%02i.%03i" % (hours,mins,secs,mils)
 
 #Leave it as a seperate function if for some reason I want to make it more complicated later.
 def getRandomLanguage():
@@ -161,7 +152,9 @@ class mainWindow:
         self.changeLang.pack(side=tk.LEFT, fill=tk.X, expand=True)
 
 
-        
+    def getNewProblem(self):
+        self.prob = getNextProblem()
+
     
     def update_clock(self):
         if not self.stopped:
@@ -169,15 +162,16 @@ class mainWindow:
                 self.startTime = currentTime()
                 self.clockRunning = True
             self.elapsed = currentTime() - self.startTime
-            timeStamp = getStopwatchString(self.elapsed)
+            timeStamp = milsUtils.getStopwatchString(self.elapsed)
             self.clockTime.set(timeStamp)
             self.mw.after(1, self.update_clock)
         else:
             self.clockRunning = False
 
     def updateNumberToDo(self, event=None):
+        self.getNewProblem()
         if self.stopped:
-            self.numberToDoVariable.set(getNextAssignment())
+            self.numberToDoVariable.set(self.prob.frontend_id)
 
     def updateLanguageToUse(self, event=None):
         self.languageToUse.set(getRandomLanguage())
@@ -204,7 +198,9 @@ class mainWindow:
     def stop(self, ask=True):
         doStop = True
         if ask:
-            if not tk.messagebox.askyesno("Stop?", "Are you sure you want to stop? If you do you will not be able to save this challenge."):
+            if tk.messagebox.askyesno("Stop?", "Are you sure you want to stop? If you do you will not be able to save this challenge."):
+                doStop = True
+            else:
                 doStop = False
 
         if doStop:
@@ -226,7 +222,7 @@ class mainWindow:
         global jsonData
 
         if not self.stopped:
-            jsonData["completed"][self.numberToDoVariable.get()] = (self.languageToUse.get(), self.elapsed, self.startTime)
+            jsonData["completed"][self.prob.id] = {'frontend_id':self.prob.frontend_id, 'language_used':self.languageToUse.get(), 'elapsed':self.elapsed, 'start':self.startTime}
             with open(SAVE_FILE_NAME, 'w') as saves:
                 json.dump(jsonData, saves)
                 saves.close()
@@ -243,4 +239,13 @@ root = tk.Tk()
 parseSaveFile()
 setupWindow(root)
 mainWindow(root)
+
+#Deal with close event
+def on_closing():
+    LeetcodeAPI.writeReadme(jsonData)
+    root.destroy()
+
+root.protocol("WM_DELETE_WINDOW", on_closing)
+
+
 root.mainloop()
