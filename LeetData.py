@@ -26,7 +26,7 @@ def parseSaveFile():
 
     try:
         saves = open(SAVE_FILE_NAME,'r')
-    except FileNotFoundError:
+    except:
         saves = open(SAVE_FILE_NAME, 'w')
         configJsonFile(saves)
         saves.close()
@@ -36,7 +36,7 @@ def parseSaveFile():
         saves.close()
 
 def makeDir(challengeNumber):
-    pathlib.Path(os.path.join(os.getcwd(), str(challengeNumber))).mkdir(parents=True, exist_ok=True)
+    pathlib.Path(os.path.join(os.getcwd(), "Solutions/" + str(challengeNumber))).mkdir(parents=True, exist_ok=True)
 
 def getNextProblem():
     global jsonData

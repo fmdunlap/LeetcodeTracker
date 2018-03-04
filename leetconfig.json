@@ -1,1 +1,1 @@
-{"numAlgorithms": 756, "completed": {"203": {"language_used": "Python", "elapsed": 936409, "start": 1520115033173, "frontend_id": 203}, "680": {"language_used": "Java", "frontend_id": 680, "start": 1520055235208, "elapsed": 1696570}}}
+{"numAlgorithms": 756, "completed": {"203": {"elapsed": 936409, "frontend_id": 203, "language_used": "Python", "start": 1520115033173}, "202": {"frontend_id": 202, "elapsed": 2307, "language_used": "C++", "start": 1520127087403}, "680": {"frontend_id": 680, "elapsed": 1696570, "language_used": "Java", "start": 1520055235208}}}
