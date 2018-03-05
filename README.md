@@ -1217,9 +1217,9 @@ Problem 201: Bitwise AND of Numbers Range   ![#e5de19](https://placehold.it/15/e
 
 Problem 202: Happy Number   ![#07c117](https://placehold.it/15/07c117/000000?text=+)
 ------
-* **Status:** INCOMPLETE
-* **Time Taken:** N/A 
-* **Completed On:** N/A
+* **Status:** COMPLETE!
+* **Time Taken:** 0:00:02.307
+* **Completed On:** 2018-03-03
 
 Problem 203: Remove Linked List Elements   ![#07c117](https://placehold.it/15/07c117/000000?text=+)
 ------
@@ -4540,6 +4540,30 @@ Problem 790: Domino and Tromino Tiling   ![#e5de19](https://placehold.it/15/e5de
 * **Completed On:** N/A
 
 Problem 791: Custom Sort String   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 792: Number of Matching Subsequences   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 793: Preimage Size of Factorial Zeroes Function   ![#ad1414](https://placehold.it/15/ad1414/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 794: Valid Tic-Tac-Toe State   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 795: Number of Subarrays with Bounded Maximum   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
 ------
 * **Status:** INCOMPLETE
 * **Time Taken:** N/A 
