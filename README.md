@@ -1217,9 +1217,9 @@ Problem 201: Bitwise AND of Numbers Range   ![#e5de19](https://placehold.it/15/e
 
 Problem 202: Happy Number   ![#07c117](https://placehold.it/15/07c117/000000?text=+)
 ------
-* **Status:** COMPLETE! ![Checkmark](https://ssl.gstatic.com/sites/p/40be54/system/app/pagetypes/list/icon-checkmark.gif)
-* **Time Taken:** 0:00:02.307
-* **Completed On:** 2018-03-03
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
 
 Problem 203: Remove Linked List Elements   ![#07c117](https://placehold.it/15/07c117/000000?text=+)
 ------
