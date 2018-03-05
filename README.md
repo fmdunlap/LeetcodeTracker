@@ -1217,13 +1217,13 @@ Problem 201: Bitwise AND of Numbers Range   ![#e5de19](https://placehold.it/15/e
 
 Problem 202: Happy Number   ![#07c117](https://placehold.it/15/07c117/000000?text=+)
 ------
-* **Status:** COMPLETE!
+* **Status:** COMPLETE! ![Checkmark](https://ssl.gstatic.com/sites/p/40be54/system/app/pagetypes/list/icon-checkmark.gif)
 * **Time Taken:** 0:00:02.307
 * **Completed On:** 2018-03-03
 
 Problem 203: Remove Linked List Elements   ![#07c117](https://placehold.it/15/07c117/000000?text=+)
 ------
-* **Status:** COMPLETE!
+* **Status:** COMPLETE! ![Checkmark](https://ssl.gstatic.com/sites/p/40be54/system/app/pagetypes/list/icon-checkmark.gif)
 * **Time Taken:** 0:15:36.409
 * **Completed On:** 2018-03-03
 
@@ -3065,9 +3065,9 @@ Problem 524: Longest Word in Dictionary through Deleting   ![#e5de19](https://pl
 
 Problem 525: Contiguous Array   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
 ------
-* **Status:** INCOMPLETE
-* **Time Taken:** N/A 
-* **Completed On:** N/A
+* **Status:** COMPLETE! ![Checkmark](https://ssl.gstatic.com/sites/p/40be54/system/app/pagetypes/list/icon-checkmark.gif)
+* **Time Taken:** 0:17:17.256
+* **Completed On:** 2018-03-04
 
 Problem 526: Beautiful Arrangement   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
 ------
@@ -3851,9 +3851,9 @@ Problem 664: Strange Printer   ![#ad1414](https://placehold.it/15/ad1414/000000?
 
 Problem 665: Non-decreasing Array   ![#07c117](https://placehold.it/15/07c117/000000?text=+)
 ------
-* **Status:** INCOMPLETE
-* **Time Taken:** N/A 
-* **Completed On:** N/A
+* **Status:** COMPLETE! ![Checkmark](https://ssl.gstatic.com/sites/p/40be54/system/app/pagetypes/list/icon-checkmark.gif)
+* **Time Taken:** 0:19:22.856
+* **Completed On:** 2018-03-04
 
 Problem 666: Path Sum IV   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
 ------
@@ -3941,7 +3941,7 @@ Problem 679: 24 Game   ![#ad1414](https://placehold.it/15/ad1414/000000?text=+)
 
 Problem 680: Valid Palindrome II   ![#07c117](https://placehold.it/15/07c117/000000?text=+)
 ------
-* **Status:** COMPLETE!
+* **Status:** COMPLETE! ![Checkmark](https://ssl.gstatic.com/sites/p/40be54/system/app/pagetypes/list/icon-checkmark.gif)
 * **Time Taken:** 0:28:16.570
 * **Completed On:** 2018-03-02
 

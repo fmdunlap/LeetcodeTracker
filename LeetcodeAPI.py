@@ -7,6 +7,7 @@ import milsUtils
 #Color boxes for Difficulty
 
 difficultySquare = ["N/A", "![#07c117](https://placehold.it/15/07c117/000000?text=+)", "![#e5de19](https://placehold.it/15/e5de19/000000?text=+)", "![#ad1414](https://placehold.it/15/ad1414/000000?text=+)"]
+checkmarkGif = "![Checkmark](https://ssl.gstatic.com/sites/p/40be54/system/app/pagetypes/list/icon-checkmark.gif)"
 
 #Load in JSON data from Leetcode
 api_qs = requests.get('https://leetcode.com/api/problems/all/')
@@ -43,7 +44,7 @@ def getMDLine(app_json, p):
     line += "Problem %i: %s   %s\n" %(p.frontend_id, p.name, difficultySquare[p.difficulty])
     line += "------\n"
     if(idStr in app_json['completed'].keys()):
-        line += "* **Status:** COMPLETE!\n"
+        line += "* **Status:** COMPLETE! %s\n" %checkmarkGif
         line += "* **Time Taken:** %s\n" % milsUtils.getStopwatchString(app_json['completed'][idStr]['elapsed'])
         line += "* **Completed On:** %s\n" % milsUtils.getDayString(app_json['completed'][idStr]['start'])
     else:
