@@ -851,9 +851,9 @@ Problem 140: Word Break II   ![#ad1414](https://placehold.it/15/ad1414/000000?te
 
 Problem 141: Linked List Cycle   ![#07c117](https://placehold.it/15/07c117/000000?text=+)
 ------
-* **Status:** INCOMPLETE
-* **Time Taken:** N/A 
-* **Completed On:** N/A
+* **Status:** COMPLETE! ![Checkmark](https://ssl.gstatic.com/sites/p/40be54/system/app/pagetypes/list/icon-checkmark.gif)
+* **Time Taken:** 0:06:24.085
+* **Completed On:** 2018-03-09
 
 Problem 142: Linked List Cycle II   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
 ------
@@ -1331,9 +1331,9 @@ Problem 220: Contains Duplicate III   ![#e5de19](https://placehold.it/15/e5de19/
 
 Problem 221: Maximal Square   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
 ------
-* **Status:** INCOMPLETE
-* **Time Taken:** N/A 
-* **Completed On:** N/A
+* **Status:** COMPLETE! ![Checkmark](https://ssl.gstatic.com/sites/p/40be54/system/app/pagetypes/list/icon-checkmark.gif)
+* **Time Taken:** 0:42:35.451
+* **Completed On:** 2018-03-09
 
 Problem 222: Count Complete Tree Nodes   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
 ------
@@ -2303,9 +2303,9 @@ Problem 382: Linked List Random Node   ![#e5de19](https://placehold.it/15/e5de19
 
 Problem 383: Ransom Note   ![#07c117](https://placehold.it/15/07c117/000000?text=+)
 ------
-* **Status:** INCOMPLETE
-* **Time Taken:** N/A 
-* **Completed On:** N/A
+* **Status:** COMPLETE! ![Checkmark](https://ssl.gstatic.com/sites/p/40be54/system/app/pagetypes/list/icon-checkmark.gif)
+* **Time Taken:** 0:04:00.130
+* **Completed On:** 2018-03-09
 
 Problem 384: Shuffle an Array   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
 ------
