@@ -4569,3 +4569,75 @@ Problem 795: Number of Subarrays with Bounded Maximum   ![#e5de19](https://place
 * **Time Taken:** N/A 
 * **Completed On:** N/A
 
+Problem 796: Rotate String   ![#07c117](https://placehold.it/15/07c117/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 797: All Paths From Source to Target   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 798: Smallest Rotation with Highest Score   ![#ad1414](https://placehold.it/15/ad1414/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 799: Champagne Tower   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 800: Similar RGB Color   ![#07c117](https://placehold.it/15/07c117/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 801: Minimum Swaps To Make Sequences Increasing   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 802: Find Eventual Safe States   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 803: Bricks Falling When Hit   ![#ad1414](https://placehold.it/15/ad1414/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 804: Unique Morse Code Words   ![#07c117](https://placehold.it/15/07c117/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 805: Split Array With Same Average   ![#ad1414](https://placehold.it/15/ad1414/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 806: Number of Lines To Write String   ![#07c117](https://placehold.it/15/07c117/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 807: Max Increase to Keep City Skyline   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
