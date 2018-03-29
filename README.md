@@ -827,9 +827,9 @@ Problem 136: Single Number   ![#07c117](https://placehold.it/15/07c117/000000?te
 
 Problem 137: Single Number II   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
 ------
-* **Status:** INCOMPLETE
-* **Time Taken:** N/A 
-* **Completed On:** N/A
+* **Status:** COMPLETE! ![Checkmark](https://ssl.gstatic.com/sites/p/40be54/system/app/pagetypes/list/icon-checkmark.gif)
+* **Time Taken:** 0:11:38.240
+* **Completed On:** 2018-03-28
 
 Problem 138: Copy List with Random Pointer   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
 ------
@@ -1181,9 +1181,9 @@ Problem 195: Tenth Line   ![#07c117](https://placehold.it/15/07c117/000000?text=
 
 Problem 196: Delete Duplicate Emails   ![#07c117](https://placehold.it/15/07c117/000000?text=+)
 ------
-* **Status:** INCOMPLETE
-* **Time Taken:** N/A 
-* **Completed On:** N/A
+* **Status:** COMPLETE! ![Checkmark](https://ssl.gstatic.com/sites/p/40be54/system/app/pagetypes/list/icon-checkmark.gif)
+* **Time Taken:** 0:00:11.983
+* **Completed On:** 2018-03-28
 
 Problem 197: Rising Temperature   ![#07c117](https://placehold.it/15/07c117/000000?text=+)
 ------
@@ -3647,9 +3647,9 @@ Problem 629: K Inverse Pairs Array   ![#ad1414](https://placehold.it/15/ad1414/0
 
 Problem 630: Course Schedule III   ![#ad1414](https://placehold.it/15/ad1414/000000?text=+)
 ------
-* **Status:** INCOMPLETE
-* **Time Taken:** N/A 
-* **Completed On:** N/A
+* **Status:** COMPLETE! ![Checkmark](https://ssl.gstatic.com/sites/p/40be54/system/app/pagetypes/list/icon-checkmark.gif)
+* **Time Taken:** 1:04:45.784
+* **Completed On:** 2018-03-28
 
 Problem 631: Design Excel Sum Formula   ![#ad1414](https://placehold.it/15/ad1414/000000?text=+)
 ------
