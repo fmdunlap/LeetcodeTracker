@@ -1205,9 +1205,9 @@ Problem 199: Binary Tree Right Side View   ![#e5de19](https://placehold.it/15/e5
 
 Problem 200: Number of Islands   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
 ------
-* **Status:** INCOMPLETE
-* **Time Taken:** N/A 
-* **Completed On:** N/A
+* **Status:** COMPLETE! ![Checkmark](https://ssl.gstatic.com/sites/p/40be54/system/app/pagetypes/list/icon-checkmark.gif)
+* **Time Taken:** 0:14:03.674
+* **Completed On:** 2018-04-17
 
 Problem 201: Bitwise AND of Numbers Range   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
 ------
@@ -4636,6 +4636,78 @@ Problem 806: Number of Lines To Write String   ![#07c117](https://placehold.it/1
 * **Completed On:** N/A
 
 Problem 807: Max Increase to Keep City Skyline   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 808: Soup Servings   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 809: Expressive Words   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 810: Chalkboard XOR Game   ![#ad1414](https://placehold.it/15/ad1414/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 811: Subdomain Visit Count   ![#07c117](https://placehold.it/15/07c117/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 812: Largest Triangle Area   ![#07c117](https://placehold.it/15/07c117/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 813: Largest Sum of Averages   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 814: Binary Tree Pruning   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 815: Bus Routes   ![#ad1414](https://placehold.it/15/ad1414/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 816: Ambiguous Coordinates   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 817: Linked List Components   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 818: Race Car   ![#ad1414](https://placehold.it/15/ad1414/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 819: Most Common Word   ![#07c117](https://placehold.it/15/07c117/000000?text=+)
 ------
 * **Status:** INCOMPLETE
 * **Time Taken:** N/A 
