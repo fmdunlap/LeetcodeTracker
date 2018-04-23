@@ -4163,9 +4163,9 @@ Problem 727: Minimum Window Subsequence   ![#ad1414](https://placehold.it/15/ad1
 
 Problem 728: Self Dividing Numbers   ![#07c117](https://placehold.it/15/07c117/000000?text=+)
 ------
-* **Status:** INCOMPLETE
-* **Time Taken:** N/A 
-* **Completed On:** N/A
+* **Status:** COMPLETE! ![Checkmark](https://ssl.gstatic.com/sites/p/40be54/system/app/pagetypes/list/icon-checkmark.gif)
+* **Time Taken:** 0:37:47.342
+* **Completed On:** 2018-04-23
 
 Problem 729: My Calendar I   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
 ------
