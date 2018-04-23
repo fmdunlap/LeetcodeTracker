@@ -2285,9 +2285,9 @@ Problem 379: Design Phone Directory   ![#e5de19](https://placehold.it/15/e5de19/
 
 Problem 380: Insert Delete GetRandom O(1)   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
 ------
-* **Status:** INCOMPLETE
-* **Time Taken:** N/A 
-* **Completed On:** N/A
+* **Status:** COMPLETE! ![Checkmark](https://ssl.gstatic.com/sites/p/40be54/system/app/pagetypes/list/icon-checkmark.gif)
+* **Time Taken:** 0:37:05.417
+* **Completed On:** 2018-04-22
 
 Problem 381: Insert Delete GetRandom O(1) - Duplicates allowed   ![#ad1414](https://placehold.it/15/ad1414/000000?text=+)
 ------
@@ -4708,6 +4708,30 @@ Problem 818: Race Car   ![#ad1414](https://placehold.it/15/ad1414/000000?text=+)
 * **Completed On:** N/A
 
 Problem 819: Most Common Word   ![#07c117](https://placehold.it/15/07c117/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 820: Short Encoding of Words   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 821: Shortest Distance to a Character   ![#07c117](https://placehold.it/15/07c117/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 822: Card Flipping Game   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
+------
+* **Status:** INCOMPLETE
+* **Time Taken:** N/A 
+* **Completed On:** N/A
+
+Problem 823: Binary Trees With Factors   ![#e5de19](https://placehold.it/15/e5de19/000000?text=+)
 ------
 * **Status:** INCOMPLETE
 * **Time Taken:** N/A 
